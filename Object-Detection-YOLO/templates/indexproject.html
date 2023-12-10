@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ObjectDetection-YOLOv8</title>
+    <style>
+        body{
+        font-family:Helvetica, sans-serif;
+        margin:0px;
+        padding:0px;
+        }
+        header.feature-box.right{
+        background-color:black;
+        color:white;
+        height:120px;
+        padding:5px;
+        text-align:center;
+        text-size:87;
+        }
+        header.feature-box.below{
+        height:800px;
+        background-color:#a4cbde;
+        margin-top:-30px;
+        background-image:url("../static/images/1.png");
+        background-size:100%;
+        background-position:center;
+         font-size: 25px;
+        }
+        ul{
+        list-style:none;
+        padding:0px;}
+        li{
+        display:inline-block;
+        background-color:gray;
+        border-radius:10px;
+        padding:10px;
+        margin:10px;
+        }
+        li:hover{
+        background-color:red;
+        margin:10px;
+        }
+        header a{
+        color:white;
+        text-decoration:none;
+        width:100%;
+        }
+        .details{
+        height:80px;
+        margin:40px;
+        padding:0px;
+        font-size:40px;
+        background-color:gray;
+        text-align:center;
+        color:black;
+        }
+
+
+        .features{
+        background:white;
+        color:gray;
+        display:flex;
+        flex-direction:row;
+        padding:20px;
+
+        }
+        .features figure
+        {/*background:pink;*/
+        width:400px;
+        margin:auto;
+        text-align:center;
+        text-transform:uppercase;
+        }
+        .features figure img{
+        border-radius:10%;
+        width:400px;
+        }
+        div.main{
+        display:flex;
+        margin:40px;
+        letter-spacing:1px;
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Playfair Display";
+    letter-spacing: 5px;
+        }
+        }
+        .subpart2{
+        text-align:center;
+        text-transform:uppercase;
+        }
+        .subpart2 figure img{
+        border-radius:4%;
+        width:800px;
+        }
+        #textbox {
+       font-size: 18pt;
+        height: 42px;
+        width : 1000px;
+        }
+        #textboxes {
+       font-size: 18pt;
+        height: 42px;
+        width : 1000px;
+        }
+        footer{
+        background-color:black;
+        text-align:center;
+        margin:0px;
+        padding:0px;
+        color:white;
+        font-size:20px;
+        }
+        .object-detection-text {
+            color: white;
+            font-size: 42px; /* Adjust the font size as needed */
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="feature-box right">
+        <nav>
+           <div class="object-detection-text">OBJECT DETECTION USING YOLO</div>
+            <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/FrontPage">Video</a></li>
+            <li><a href="/webcam">LiveWebcam</a></li>
+                <li><a href="/image">Image</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+       <header class="feature-box below">
+        <p>
+            Object detection is a technique used in computer vision for the identification and localization of objects within an image or a video.
+            Image Localization is the process of identifying the correct location of one or multiple objects using bounding boxes, which correspond to rectangular shapes around the objects.
+            This process is sometimes confused with image classification or image recognition, which aims to predict the class of an image or an object within an image into one of the categories or classes.
+<!--        <img src="image.jpeg">-->
+        </p>
+
+       <img src="https://ubiai.tools/wp-content/uploads/2023/11/1_lphzxAZMToiKwYaeiTou2Q.jpeg" alt="Description of the image" style="display: block; margin: 0 auto; max-width: 100%; height: 510px;">
+
+       YOLO, which stands for "You Only Look Once," is an object detection algorithm used in computer vision. It revolutionized real-time object detection by dividing an image into a grid and predicting bounding boxes and class probabilities for objects within each grid cell in a single pass. YOLO is known for its speed and accuracy, making it widely used in applications such as image recognition, video analysis, and autonomous vehicles. It provides a fast and efficient way to detect and locate multiple objects in an image or video stream.
+    </header>
+
+</body>
+</html>
